@@ -1,0 +1,135 @@
+.contact-container {
+    width: 100%;
+    background-color: #000;
+    /* padding: 20px 10px; */
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.contact-content h1 {
+    padding: 20px;
+    color: white!important;
+    font-family: "Comfortaa", "Roboto", "Uni-sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: calc(1.3rem + .6vw)!important;
+    letter-spacing: 0.3px;
+}
+
+@media (min-width: 1200px) {
+    .contact-container h1 {
+        font-size: 1.75rem!important;
+    }
+}
+
+.arrow {
+    position: relative;
+}
+
+.arrow:after {
+    content: '';
+    background-image: url('../img/arrow1.svg');
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 50px;
+    transform: translateY(-50%);
+    right: -15%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 992px) {
+    .arrow-container {
+        max-width: 99% !important;
+    }
+}
+
+@media(max-width: 860px) {
+    .arrow::after {
+        width: 60px;
+        height: 15px;
+    }
+}
+
+@media(max-width: 991px) {
+    .arrow:after {
+        transform: translateX(-50%) translateY(50%) rotate(90deg) !important;;
+        left: 50% !important;
+        top: unset !important;
+        bottom: -60px;
+    }
+
+    .arrow {
+        margin-bottom: 120px;
+    }
+}
+
+.text-container h2 {
+    color: white;
+    font-size: 1.4rem!important;
+    margin-top: 10px;
+    font-family: "Comfortaa", "Roboto", "Uni-sans", sans-serif;
+}
+
+.text-container p {
+    color: white;
+    font-size: 1rem!important;
+    font-family: "Comfortaa", "Uni-sans", sans-serif;
+}
+
+.form-container .container {
+    padding: 80px 0;
+}
+
+.form-container {
+    background-color: #FF2E00; 
+  
+}
+
+.form-space{
+    width: 100%;
+    margin-bottom: 10px!important;
+} 
+
+.btn-style{
+    background-color: #fff!important; 
+    border: none!important;
+    color: black!important;
+    border-radius: 20px!important;
+    width: 100px!important;
+    outline: 0!important;
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+.btn-primary:focus{
+    box-shadow: none!important;
+}
+
+.btn-style:hover{
+   box-shadow:  0px 0px 10px .5px rgba(0,0,0,.7);
+   filter: brightness(0.8);
+   transition: 0.5s;
+}
+
+.form-space:last-child{
+color: #fff;
+}
+
+.form-container h2{
+    padding-top: 30px; 
+    color: white!important;
+    font-family: "Comfortaa", "Roboto", "Uni-sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: calc(1.3rem + .6vw)!important;
+    letter-spacing: 0.3px;
+}
+
+.image-space {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.send-container{
+    background-color: #212529;
+}
+
+.send-contant{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+
+}
+
+.send-contant img{
+    max-width: 500px;
+}
+
+.send-mensage{
+    color: white!important;
+    font-family: "Comfortaa", "Roboto", "Uni-sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: calc(1.3rem + .6vw)!important;
+    letter-spacing: 0.3px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}

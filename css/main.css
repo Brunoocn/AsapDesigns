@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Hanson";
+  src: url(../font/Hanson-Bold.otf);
+}
+
+@font-face {
   font-family: "Uni-Sans";
   src: url(../font/uni-sans.otf);
 }
@@ -163,7 +168,7 @@ ul {
 .secondary-menu {
   background-color: #1a1a1a;
   width: 100%;
-  z-index: 9999;
+  z-index: 100;
   top: 0;
   transition: .3s;
   max-width: 100vw;
@@ -370,8 +375,9 @@ ul {
 
 .content-col h2 {
   color: white;
-  font-family: 'Futura-BT', sans-serif;
-  font-size: 3rem;
+  font-family: 'Hanson', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
 .content-col p {
@@ -509,4 +515,54 @@ ul {
   font-size: 14px;
   color: white;
   font-family: 'Comfortaa', 'Arial'!important
+}
+
+/* animation */
+.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  z-index: 200;
+  color:#fff ;
+  text-align: center;
+  line-height: 90vh!important;
+   overflow: hidden; /* Hide scrollbars */
+  
+}
+
+.fade-in{
+  line-height: 90vh;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.splash.display-none{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  z-index: -10;
+  color:#fff ;
+  text-align: center;
+  line-height: 90vh!important;
+  transition: all 0.8s;
+}
+
+.splash img{
+  max-width: 200px;
 }

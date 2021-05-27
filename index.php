@@ -6,27 +6,32 @@
     <link rel="preload" as="image" href="/img/phone1.png">
     <link rel="preload" as="image" href="/img/phone2.png">
     <link rel="preload" as="image" href="/img/phone3.png">
-    <?php include('components/head.php') ?> 
+    <?php include('components/head.php') ?>
+    <meta name="description"
+        content="A Asap Designs é uma agência digital, que busca ajudar a pequenos e grandes negócios a realizar uma transição que vem se tornando cada vez mais necessária nos últimos anos, a torna-lo digital. Nós inovamos o método de vendas, captação de clientes, e outros aspectos de sua empresa com soluções digitais como desenvolvimento de sites, social media, marketing digital.">
 
 <body>
-        <?php include('components/navbar.php') ?>
+    <div class="splash">
+        <img src="img/logo.png" alt="AsapDesigns" width="100%" height="auto">
+    </div>
+    <?php include('components/navbar.php') ?>
 
 
-        <!-- Slider -->
-        <div class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide"><img width="100%" src="/img/banner.png" /></li>
-                    <li class="splide__slide"><img width="100%" src="/img/banner.png" /></li>
-                    <li class="splide__slide"><img width="100%" src="/img/banner.png" /></li>
-                </ul>
-            </div>
+    <!-- Slider -->
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide"><img width="100%" alt="banner" src="/img/banner.png" /></li>
+                <li class="splide__slide"><img width="100%" alt="banner" src="/img/banner_2.jpg" /></li>
+                <li class="splide__slide"><img width="100%" alt="banner" src="/img/banner.png" /></li>
+            </ul>
         </div>
+    </div>
 
-        <!-- Nossos Serviços -->
-        <section class="servicos">
-            <div class="container serviços-container">
-                <h1 class="subtitulo">Nossos Serviços </h2>
+    <!-- Nossos Serviços -->
+    <section class="servicos">
+        <div class="container serviços-container">
+            <h1 class="subtitulo">Nossos Serviços </h2>
                 <div class="row items-coluna">
                     <div class="col-lg-3 text-center card-col">
                         <div class="card-info">
@@ -39,7 +44,7 @@
                             <h3 class="subtitulos">Criação de Sites </h3>
                             <p class="text"> Fazemos seu site de acordo com suas necessidades, seja qual for o intuito
                                 de
-                                seu negocio</p>
+                                seu negocio.</p>
                         </div>
                         <a href="contato"><button class="botao">Nosso Contato</button></a>
                     </div>
@@ -54,7 +59,7 @@
                                     fill="#FF2E00" />
                             </svg>
                             <h3 class="subtitulos">Identidade Visual </h3>
-                            <p class="text">Desenvolvemos sua identidade visual para voce garantir sua presença online
+                            <p class="text">Desenvolvemos sua identidade visual para você garantir sua presença online.
                             </p>
                         </div>
                         <a href="portfolio"> <button class="botao">Ver Portfolio</button></a>
@@ -68,8 +73,8 @@
                                     fill="#FF2E00" />
                             </svg>
                             <h3 class="subtitulos">Marketing Digital </h3>
-                            <p class="text">Marketing, anúncios, gestão de trafego, e outros servicos para aumentar seus
-                                clientes</p>
+                            <p class="text">Marketing, anúncios, gestão de trafego, e outros serviços para aumentar seus
+                                clientes.</p>
                         </div>
                         <a href="contato"><button class="botao">Nosso Contato</button></a>
                     </div>
@@ -90,7 +95,7 @@
                             <h3 class="subtitulos">Social Media</h3>
                             <p class="text">Suas redes sociais com quem entende do assunto, aumente seu engajamento e
                                 suas
-                                vendas</p>
+                                vendas.</p>
                         </div>
                         <a href="portfolio"><button class="botao">Ver portfólio</button></a>
 
@@ -99,42 +104,43 @@
                 </div>
 
 
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!--Trabalhos  -->
-        <section id="trabalhos" class="trabalhos"
-            style="background: linear-gradient(to right, #5e5ff7, #665ef5, #6d5df4, #745cf2, #7a5bf0, #6369f7, #4875fc, #227fff, #0093ff, #00a3f8, #00b0ec, #00bbde);">
-            <div class="container">
-                <div class="row">
-                    <div class="col content-col">
-                        <h2 class="sub-work">Confira alguns de nossos trabalhos</h2>
-                        <p class="text">Temos solucoes digitais para qualquer tipo de negocio, seja design, marketing, ou gestao de
-                            trafego,
-                            alavancamos suas vendas e seu engajamento garantindo mais vendas e mais clientes.</p>
-                        <a href="portfolio"><button class="btn2">Nosso Portfólio</button></a>
-                    </div>
-                    <div class="col-sm-4 text-center image-col">
-                        <img id="celular" src="/img/phone1.png" width="100%" height="auto" alt="Celular-sorteio">
-                    </div>
+    <!--Trabalhos  -->
+    <section id="trabalhos" class="trabalhos"
+        style="background: linear-gradient(to right, #5e5ff7, #665ef5, #6d5df4, #745cf2, #7a5bf0, #6369f7, #4875fc, #227fff, #0093ff, #00a3f8, #00b0ec, #00bbde);">
+        <div class="container">
+            <div class="row">
+                <div class="col content-col">
+                    <h2 class="sub-work">Confira alguns de nossos trabalhos</h2>
+                    <p class="text">Temos soluções digitais para qualquer tipo de negocio, seja design, marketing ou
+                        gestao de
+                        tráfego,
+                        alavancamos suas vendas e seu engajamento garantindo mais vendas e mais clientes.</p>
+                    <a href="portfolio"><button class="btn2">Nosso Portfólio</button></a>
                 </div>
-                <div class="col-md-12">
-                    <ul id="dots-navigation">
-                        <li class="green"
-                            onclick="changeBgColor('green'); changeImageSrc('/img/phone1.png'); worksection.style.opacity = '0.8';">
-                        </li>
-                        <li class="red"
-                            onclick="changeBgColor('red'); changeImageSrc('/img/phone2.png'); worksection.style.opacity = '0.8';">
-                        </li>
-                        <li class="pink"
-                            onclick="changeBgColor('pink'); changeImageSrc('/img/phone3.png'); worksection.style.opacity = '0.8';">
-                        </li>
-                    </ul>
+                <div class="col-sm-4 text-center image-col">
+                    <img id="celular" src="/img/phone1.png" width="100%" height="auto" alt="Celular-sorteio">
                 </div>
             </div>
-        </section>
+            <div class="col-md-12">
+                <ul id="dots-navigation">
+                    <li class="green"
+                        onclick="changeBgColor('green'); changeImageSrc('/img/phone1.png'); worksection.style.opacity = '0.8';">
+                    </li>
+                    <li class="red"
+                        onclick="changeBgColor('red'); changeImageSrc('/img/phone2.png'); worksection.style.opacity = '0.8';">
+                    </li>
+                    <li class="pink"
+                        onclick="changeBgColor('pink'); changeImageSrc('/img/phone3.png'); worksection.style.opacity = '0.8';">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <?php include('components/footer.php') ?>
+    <?php include('components/footer.php') ?>
     <script>
         const worksection = document.getElementById("trabalhos");
         const phone = document.getElementById("celular");
@@ -174,6 +180,18 @@
                 phone.src = src;
             }, 50);
         }
+        
+
+    </script>
+
+    <script>
+    const splash = document.querySelector('.splash');
+
+    document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(() =>{
+        splash.classList.add('display-none');
+    }, 2500);
+    })
     </script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -181,10 +199,10 @@
     <script defer type="text/javascript" src="/js/main.js"></script>
     <script>
         new Splide('.splide', {
-        perPage: 1,
-        rewind: true,
-        arrows: true,
-        pauseOnHover: true,
+            perPage: 1,
+            rewind: true,
+            arrows: true,
+            pauseOnHover: true,
         }).mount();
     </script>
     
